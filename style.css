@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 50px;
+        border-bottom: 1px solid gray;
+        
+
+    }
+
+nav .links ul {
+    display: flex;
+    list-style: none; 
+    text-align: center;
+
+}
+
+nav .links ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(130, 197, 219);
+    
+}
+
+nav .links ul li a:hover {
+    background-color: green;
+    padding: 8px;
+    border-radius: 13px;
+    transition: 0.5s;
+}
+
+nav span {
+    color: rgb(238, 155, 2);
+}
+
+#home {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.discription {
+    margin-top: 80px;
+}
+
+
+h1.text {
+    font-size: 42px;
+}
+
+.discription p {
+    font-size: 24px;
+}
+
+.discription span {
+    color: blue;
+}
+
+.buttons-group {
+    margin-top: 10px;
+}
+
+.buttons-group a{
+display: inline-block;
+width: 80px;
+text-decoration: none;
+padding: 8px;
+border-radius: 20px;
+text-align: center;
+border: 1px solid rgb(223, 10, 10);
+
+}
+
+.nav-name {
+    font-size: 30px;
+}
+
+.buttons-group a:hover{
+    color:rgb(10, 224, 10);
+    background-color: red;
+    
+}
+
+.buttons-group a{
+    margin-right: 20px;
+}
+
+section {
+    /* border: 1px solid red; */
+}
+
+.image img{
+    height: 500px;
+
+}
+
+.my-services img{
+    height: 300px;
+   
+}
+
+.my-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.skill {
+    display: flex;
+    font-size: 34px;
+    justify-content: center;
+}
+
+
+
